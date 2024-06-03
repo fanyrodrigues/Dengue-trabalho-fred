@@ -11,75 +11,132 @@
 
 <body>
     <nav class="navbar bg-info navbar-dark navbar-expand-sm py-3 sticky-top">
-        <div class="container">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.webp" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+            </a>
             <a href="" class="navbar-brand d-flex align-items-center">Dengue</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menuNavbar">
                 <div class="navbar-nav ms-auto">
-                    <a href="4" class="nav-link active">Menu 1</a>
-                    <a href="4" class="nav-link">Menu 2</a>
-                    <a href="4" class="nav-link">Menu 3</a>
-                    <a href="4" class="nav-link">Menu 4</a>
+                    <a href="#" class="nav-link active">Página inicial</a>
+                    <a href="#" class="nav-link">Notícias</a>
+                    <a href="#" class="nav-link">Curiosidade</a>
+                    <a href="#" class="nav-link">Material de divulgação</a>
                 </div>
                 <form class="d-flex ms-3">
                     <div class="input-group">
                         <input type="search" class="form-control me-2" placeholder="Buscar...">
-                        <button type="submit" class="btn btn-outline-success">Buscar</button>
+                        <button type="submit" class="btn btn-outline-primary">Buscar</button>
                     </div>
                 </form>
             </div>
         </div>
     </nav>
-    
-    <div class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-item active">
-            <img src="https://picsum.photos/1280/420?random=1" alt="" class="d-block w-100">
-        </div>
-        <div class="carousel-item">
-            <img src="https://picsum.photos/1280/420?random=2" alt="" class="d-block w-100">
-        </div>
-        <div class="carousel-item">
-            <img src="https://picsum.photos/1280/420?random=3" alt="" class="d-block w-100">
-        </div>
-    </div>
 
-    <div class="container mt-3">
-        <!-- Conteúdo adicional pode ser colocado aqui -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img style="height: 400px;" src="img/DENGUE_LARVAS.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img style="height: 400px;" src="img/dengue2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img style="height: 400px;" src="img/dengue3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
     </div>
-              
-    <div class="container mt-3">
-        <p class="lead">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos fugit amet illum ab impedit eos vero earum,
-            explicabo numquam aliquam a temporibus commodi, velit facere. Quidem numquam consequatur inventore quam
-            nihil aspernatur, magni aliquam vitae placeat error, molestiae ab ratione quas aliquid ipsa incidunt ullam
-            voluptatibus officiis beatae maxime totam consequuntur. Cum beatae quod non sunt, excepturi dolor expedita
-            adipisci perferendis vel nisi accusantium in consequuntur quia earum reprehenderit modi repellat quo,
-            corporis deleniti. Cumque fuga, quasi excepturi quibusdam voluptatibus alias ratione sequi id corporis et
-            facilis error sunt, asperiores voluptate, eveniet dolorum numquam amet nihil qui expedita illum distinctio.
-            Reiciendis eaque illum sit nihil mollitia, hic et, molestiae odio expedita dolores, debitis eveniet
-            perferendis animi voluptatibus! Distinctio nesciunt aliquid fugiat. Ea velit voluptas fugit minima, laborum
-            delectus illo, repellat ad, aperiam perspiciatis temporibus dolorem sapiente incidunt similique. Voluptatum,
-            dolore? Id quia neque aliquam dolore in ipsam dicta, non provident qui consequatur iure harum facere maxime
-            quo numquam consectetur officiis vel beatae ea soluta excepturi voluptates esse? Dolores beatae dolor, cum,
-            aliquid eius laudantium, deleniti dicta quibusdam distinctio recusandae laborum illum dolorem quia nihil
-            quasi. Voluptatum pariatur, ipsum quas odio exercitationem similique doloremque numquam commodi iure vel,
-            debitis laborum facilis dolor voluptate cupiditate officiis necessitatibus fuga qui error eius laboriosam
-            porro minima! Explicabo, aut reiciendis nesciunt cum ad porro ex obcaecati culpa debitis sapiente
-            consectetur accusamus aspernatur laborum nulla, harum vitae itaque repudiandae nobis et. Ab architecto ea
-            vero, consequuntur sunt expedita, assumenda similique deserunt ullam quibusdam aut nesciunt! Enim quibusdam
-            alias illo exercitationem nesciunt. Voluptatem alias, at illum ad aut tempora animi nulla a, perspiciatis,
-            magnam enim eum quas voluptatibus ipsam dicta nam assumenda cumque natus. Obcaecati aut maxime nihil
-            voluptas laborum nobis illum. Error quibusdam sequi possimus quis vitae doloribus fugit modi tenetur, eos
-            sint magnam accusamus provident. Lorem 500
-        </p>
-    </div>
-    
+    <main>
+        <div class="container p-3">
+            <hr>
+            <h3>O que é?</h3>
+            <hr>
+            <p class="lead">
+                A dengue é uma doença grave causada por um vírus transmitido por mosquitos, principalmente o Aedes
+                aegypti. Os mosquitos se reproduzem em água parada, portanto, é importante evitar a acumulação de água
+                em recipientes e vasos de plantas. Os sintomas da dengue incluem febre, dores musculares e articulares,
+                dor de cabeça, exantema e náusea. Quando não tratada adequadamente, a dengue pode levar a complicações
+                graves, incluindo hemorragias internas e choque circulatório.
+                A dengue é causada por quatro tipos diferentes de vírus, conhecidos como sorotipos 1, 2, 3 e 4. Embora
+                uma pessoa possa ser infectada por qualquer um desses sorotipos, a infecção por um deles gera imunidade
+                permanente apenas para esse tipo específico. Isso significa que uma pessoa pode ser infectada por
+                qualquer um dos outros três sorotipos da doença, mesmo que já tenha contraído a doença anteriormente.
+                Todas as idades são igualmente suscetíveis à dengue, no entanto, os idosos têm maior risco de
+                desenvolver formas graves da doença e outras complicações que podem ser fatais. Pessoas com doenças
+                crônicas, como diabetes e hipertensão, também estão em maior risco de complicações graves.
+            </p>
+            <hr>
+            <h3>Sintomas</h3>
+            <hr>
+            <p class="lead">
+                A dengue é uma doença grave que requer atenção médica imediata em caso de sintomas indicativos. Se uma
+                pessoa apresentar febre alta repentina (entre 39°C e 40°C) e pelo menos dois dos seguintes sintomas -
+                dor de cabeça, prostração, dores musculares ou articulares e dor atrás dos olhos - deve procurar
+                atendimento médico imediato.
+                Além disso, mesmo após o período febril, é fundamental ficar atento a outros sinais de alarme que podem
+                surgir no período de recuperação. Estes sinais incluem:
+                Dor abdominal intensa e persistente;
+                Vômitos persistentes;
+                Acúmulo de líquidos em cavidades corporais (ascite, derrame pleural ou derrame pericárdico);
+                Hipotensão postural e/ou lipotímia;
+                Letargia e/ou irritabilidade;
+                Aumento do tamanho do fígado (hepatomegalia) superior a 2cm;
+                Sangramento de mucosas;
+                Aumento progressivo do hematócrito.
+                Se esses sinais forem observados, é essencial buscar atenção médica imediatamente para evitar
+                complicações graves, incluindo extravasamento grave de plasma, hemorragias severas e comprometimento de
+                órgãos, que podem levar à morte do paciente.
+                A prevenção da dengue envolve medidas como eliminação de habitat de reprodução do mosquito Aedes
+                aegypti, uso de repelente de inseto, roupas que cubram as extremidades e evitar locais com alta
+                incidência de mosquitos.
+
+            </p>
+            <hr>
+            <h3>Quando procurar ajuda médica?</h3>
+            <hr>
+            <p class="lead">
+                A procura por ajuda médica é fundamental no tratamento da dengue e deve ser feita o quanto antes para
+                evitar complicações graves.
+                Procure atenção médica imediatamente se você ou alguém próximo a você apresentar os seguintes sintomas:
+                Febre alta (entre 39°C e 40°C) com início repentino;
+                Pelo menos dois dos seguintes sintomas: dor de cabeça, prostração, dores musculares ou articulares e dor
+                atrás dos olhos;
+                Após o período febril, se observar sinais de alarme como dor abdominal intensa e contínua, vômitos
+                persistentes, acúmulo de líquidos em cavidades corporais, hipotensão postural e/ou lipotímia, letargia
+                e/ou irritabilidade, aumento do tamanho do fígado, sangramento de mucosas e aumento progressivo do
+                hematócrito.
+                Lembre-se de que a dengue pode ser fatal se não for tratada corretamente. Assim, buscar atenção médica o
+                mais rápido possível é fundamental para garantir o melhor prognóstico da doença.
+            </p>
+            <hr>
+            <h3>Formas de prevenção</h3>
+            <hr>
+            <p class="lead">
+                A prevenção da propagação da dengue envolve medidas coletivas e individuais. Aqui estão algumas dicas para ajudar a evitar a propagação da doença:
+                Medidas Coletivas:
+                Educação e conscientização da população sobre a dengue e sua transmissão;
+                Campanhas de controle do mosquito Aedes aegypti, que incluem a eliminação de locais de reprodução do inseto e o uso de inseticidas em locais estratégicos;
+                Monitoramento e controle dos focos de infecção da dengue.
+                Medidas Individuais:
+                Evitar água parada em vasos de plantas, baldes, pneus velhos, entre outros recipientes;
+                Usar redes de proteção nas janelas e portas para evitar a entrada de mosquitos;
+                Usar repelentes de inseto aprovados pela vigilância sanitária em ambientes com risco de exposição ao mosquito;
+                Manter a higiene pessoal e ambiental;
+                Procurar atendimento médico caso apresente sintomas de dengue, pois o tratamento adequado pode evitar a propagação da doença.
+                Lembre-se de que a prevenção é a melhor forma de evitar a propagação da dengue e outras doenças transmitidas por mosquitos.
+
+            </p>
+        </div>
+    </main>
+
     <footer class="p-4 bg-info text-light text-center stick-bottom">Todos os direitos reservados.</footer>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
 </html>
